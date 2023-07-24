@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 106.841 s <<< FAILURE! - in runner.TestRunner
+Login with valid email and invalid password(Login functionality)  Time elapsed: 4.779 s  <<< FAILURE!
+java.lang.AssertionError
+
+User creates an account only with mandatory fields(Registration functionality)  Time elapsed: 3.758 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+User creates an account with all fields(Registration functionality)  Time elapsed: 3.766 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+User creates a duplicate account(Registration functionality)  Time elapsed: 3.762 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+User creates an account without filling any details(Registration functionality)  Time elapsed: 47.498 s  <<< ERROR!
+java.lang.NullPointerException
+
